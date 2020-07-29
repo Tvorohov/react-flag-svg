@@ -1,0 +1,39 @@
+{
+  "name": "react-flag-svg",
+  "version": "1.0.0",
+  "description": "React component country or state flag",
+  "keywords": [
+    "react",
+    "component",
+    "country flag",
+    "state flag",
+    "svg flag"
+  ],
+  "private": false,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "develop": "babel -w src --out-dir lib",
+    "deploy": "npm publish"
+  },
+  "author": "Oleksandr-Tvorohov",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2"
+  }
+}
